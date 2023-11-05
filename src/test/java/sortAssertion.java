@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class sortAssertion {
+public class SortAssertion {
     @BeforeAll
     static void configs(){
         Configuration.browserSize = "2560x1440";
